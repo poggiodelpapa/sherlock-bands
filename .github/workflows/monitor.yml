@@ -2,8 +2,8 @@ name: Monitora Pagina Sapienza
 
 on:
   schedule:
-    - cron: "0 * * * *"   # Ogni ora (puoi cambiare: "0 */6 * * *" = ogni 6 ore)
-  workflow_dispatch:        # Permette esecuzione manuale dalla UI di GitHub
+    - cron: "0 * * * *"
+  workflow_dispatch:
 
 jobs:
   check:
@@ -26,12 +26,14 @@ jobs:
           EMAIL_MITTENTE: ${{ secrets.EMAIL_MITTENTE }}
           EMAIL_DESTINATARIO: ${{ secrets.EMAIL_DESTINATARIO }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          FORCE_EMAIL: "true"
         run: python monitor.py
 
       - name: Salva hash aggiornato
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase
           git add last_hash.txt
           git diff --cached --quiet || git commit -m "Aggiorno hash pagina monitorata"
           git push
