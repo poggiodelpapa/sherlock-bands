@@ -15,12 +15,15 @@ EMAIL_DESTINATARIO = os.environ["EMAIL_DESTINATARIO"]
 GMAIL_APP_PASSWORD = os.environ["GMAIL_APP_PASSWORD"]
 FORCE_EMAIL = os.environ.get("FORCE_EMAIL", "false").lower() == "true"
 
+# Nome carino da mostrare come mittente
+SENDER_NAME = "Monitor Sapienza"   # ← puoi cambiarlo come vuoi (es. "Avvisi Sapienza", "Bot Graduatorie", ecc.)
+
 def main():
     headers = {"User-Agent": "Mozilla/5.0"}
     response = requests.get(URL, headers=headers, timeout=30)
     response.raise_for_status()
 
-    # Estraiamo SOLO il contenuto principale per evitare falsi positivi
+    # Estraiamo solo il contenuto principale
     soup = BeautifulSoup(response.text, "html.parser")
     main_content = soup.find("div", class_="node__content")
     content_to_hash = str(main_content) if main_content else response.text
@@ -47,15 +50,18 @@ def main():
 
 def send_email(url):
     msg = MIMEMultipart()
-    msg["From"] = EMAIL_MITTENTE
+    # Qui impostiamo il nome carino
+    msg["From"] = f"{SENDER_NAME} <{EMAIL_MITTENTE}>"
     msg["To"] = EMAIL_DESTINATARIO
     msg["Subject"] = "🔔 Monitor Sapienza - Novità rilevata!"
-    body = f"È cambiato il contenuto della pagina:\n{url}\n\nControlla subito!"
+    
+    body = f"È cambiato il contenuto della pagina:\n\n{url}\n\nControlla subito!"
     msg.attach(MIMEText(body, "plain"))
 
     with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=ssl.create_default_context()) as server:
         server.login(EMAIL_MITTENTE, GMAIL_APP_PASSWORD)
         server.sendmail(EMAIL_MITTENTE, EMAIL_DESTINATARIO, msg.as_string())
+    
     print("✅ Email inviata!")
 
 if __name__ == "__main__":
