@@ -8,7 +8,6 @@ on:
 jobs:
   check:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -18,13 +17,12 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Ripristina Cache Hash
+      - name: Ripristina Cache
         uses: actions/cache/restore@v4
         with:
           path: last_hash.txt
           key: sapienza-hash-${{ github.run_id }}
-          restore-keys: |
-            sapienza-hash-
+          restore-keys: sapienza-hash-
 
       - name: Installa dipendenze
         run: pip install requests beautifulsoup4
@@ -34,10 +32,10 @@ jobs:
           EMAIL_MITTENTE: ${{ secrets.EMAIL_MITTENTE }}
           EMAIL_DESTINATARIO: ${{ secrets.EMAIL_DESTINATARIO }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          FORCE_EMAIL: "true"
+          FORCE_EMAIL: "true" # Questo farà partire l'email ora
         run: python monitor.py
 
-      - name: Salva Cache Hash
+      - name: Salva Cache
         uses: actions/cache/save@v4
         if: always()
         with:
