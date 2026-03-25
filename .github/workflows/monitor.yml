@@ -2,8 +2,8 @@ name: Monitora Pagina Sapienza
 
 on:
   schedule:
-    - cron: "0 * * * *" # Gira ogni ora in automatico
-  workflow_dispatch: # Ti permette di lanciarlo a mano per testare
+    - cron: "0 * * * *"
+  workflow_dispatch:
 
 jobs:
   check:
@@ -18,7 +18,6 @@ jobs:
         with:
           python-version: "3.12"
 
-      # Recupera l'ultimo hash salvato nella cache di GitHub
       - name: Ripristina Cache Hash
         uses: actions/cache/restore@v4
         with:
@@ -35,11 +34,9 @@ jobs:
           EMAIL_MITTENTE: ${{ secrets.EMAIL_MITTENTE }}
           EMAIL_DESTINATARIO: ${{ secrets.EMAIL_DESTINATARIO }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          # IMPOSTA SU "false" DOPO CHE HAI RICEVUTO L'EMAIL DI PROVA
-          FORCE_EMAIL: "true" 
+          FORCE_EMAIL: "true"
         run: python monitor.py
 
-      # Salva il nuovo hash nella cache per la prossima esecuzione
       - name: Salva Cache Hash
         uses: actions/cache/save@v4
         if: always()
