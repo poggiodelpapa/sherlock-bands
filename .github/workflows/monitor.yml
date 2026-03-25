@@ -1,0 +1,37 @@
+name: Monitora Pagina Sapienza
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # Ogni ora (puoi cambiare: "0 */6 * * *" = ogni 6 ore)
+  workflow_dispatch:        # Permette esecuzione manuale dalla UI di GitHub
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installa dipendenze
+        run: pip install requests beautifulsoup4
+
+      - name: Esegui monitor
+        env:
+          EMAIL_MITTENTE: ${{ secrets.EMAIL_MITTENTE }}
+          EMAIL_DESTINATARIO: ${{ secrets.EMAIL_DESTINATARIO }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python monitor.py
+
+      - name: Salva hash aggiornato
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add last_hash.txt
+          git diff --cached --quiet || git commit -m "Aggiorno hash pagina monitorata"
+          git push
