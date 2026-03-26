@@ -1,84 +1,126 @@
-# 🔔 Monitor Pagina Sapienza
+# 🔔 Sapienza Page Monitor
 
-Script che monitora automaticamente la pagina:
-👉 https://www.uniroma1.it/it/node/40540
+A lightweight GitHub Actions bot that watches a university web page for changes and sends an email notification with a **visual diff** of what changed.
 
-Se rileva un cambiamento, ti manda un'email.
+Built to never miss updates on admission rankings at [Sapienza University of Rome](https://www.uniroma1.it/it/node/40540).
 
 ---
 
-## ⚙️ Setup (5 minuti)
+## How it works
 
-### 1. Crea un repository GitHub
+```
+Every hour → fetch page → hash content → compare with last run
+    ├── no change  → silent, do nothing
+    └── changed    → send email with diff → save new content to repo
+```
 
-- Vai su [github.com](https://github.com) → **New repository**
-- Chiamalo ad es. `monitor-sapienza`
-- Spunta **"Add a README file"** → Create repository
+1. **GitHub Actions** runs the script on a cron schedule (default: every hour)
+2. **BeautifulSoup** scrapes and extracts the main content of the page
+3. The content is **hashed with SHA-256** and compared to the previous run
+4. If different, an **HTML email** is sent showing added lines in green and removed lines in red
+5. The new hash and content are **committed back to the repo**, so state persists reliably across runs
 
-### 2. Carica i file
+---
 
-Carica in questo ordine:
-- `monitor.py` → nella root del repo
-- `.github/workflows/monitor.yml` → crea le cartelle manualmente o usa git
+## Stack
 
-Struttura finale del repo:
+| Tool | Role |
+|------|------|
+| Python 3.12 | Core logic |
+| `requests` + `BeautifulSoup4` | Page fetching and parsing |
+| `difflib` | Text diff generation |
+| `smtplib` + Gmail App Password | Email delivery |
+| GitHub Actions | Scheduling and execution |
+| Git (via Actions) | Persistent state storage |
+
+---
+
+## Features
+
+- ✅ Zero false positives — state is committed to the repo, not cached
+- 📧 Rich HTML email with colored diff (green = added, red = removed)
+- 🔁 Fully automated, no server or paid service required
+- 🆓 Runs within GitHub Actions free tier (uses ~30 min/month out of 2000)
+- 🔒 Credentials stored as GitHub Secrets, never in code
+
+---
+
+## Setup
+
+### 1. Fork or clone this repo
+
+### 2. Configure Gmail
+
+1. Go to [myaccount.google.com](https://myaccount.google.com)
+2. **Security** → **2-Step Verification** (must be enabled)
+3. Search for **"App passwords"** → create one for "Mail"
+4. Copy the 16-character password
+
+### 3. Add GitHub Secrets
+
+In your repo → **Settings** → **Secrets and variables** → **Actions** → **New repository secret**
+
+| Secret | Value |
+|--------|-------|
+| `EMAIL_MITTENTE` | Gmail address used to send |
+| `EMAIL_DESTINATARIO` | Address to receive notifications |
+| `GMAIL_APP_PASSWORD` | 16-character app password from step 2 |
+
+### 4. Enable write permissions for Actions
+
+**Settings** → **Actions** → **General** → **Workflow permissions** → select **"Read and write permissions"**
+
+### 5. Run manually once to initialize
+
+**Actions** → **Monitora Pagina Sapienza** → **Run workflow**
+
+The first run saves the initial state. From the second run onward, you'll only be notified when something actually changes.
+
+---
+
+## Customizing the URL
+
+Edit the `URL` variable at the top of `monitor.py`:
+
+```python
+URL = "https://your-target-page.com"
+```
+
+## Customizing the schedule
+
+Edit the cron expression in `monitor.yml`:
+
+```yaml
+- cron: "0 * * * *"    # every hour
+- cron: "0 */6 * * *"  # every 6 hours
+- cron: "0 9,18 * * *" # at 9am and 6pm daily
+```
+
+---
+
+## Repo structure
+
 ```
 monitor-sapienza/
-├── monitor.py
-├── last_hash.txt          ← creato automaticamente alla prima esecuzione
+├── monitor.py          ← main script
+├── last_hash.txt       ← SHA-256 of last seen content (auto-updated)
+├── last_content.txt    ← plain text of last seen content (auto-updated)
 └── .github/
     └── workflows/
-        └── monitor.yml
+        └── monitor.yml ← Actions workflow definition
 ```
-
-### 3. Configura Gmail App Password
-
-1. Vai su [myaccount.google.com](https://myaccount.google.com)
-2. **Sicurezza** → **Verifica in due passaggi** (deve essere attiva)
-3. Cerca **"Password per le app"** → crea una nuova password per "Mail"
-4. Copia la password di 16 caratteri (es. `abcd efgh ijkl mnop`)
-
-### 4. Aggiungi i Secrets su GitHub
-
-Nel tuo repo → **Settings** → **Secrets and variables** → **Actions** → **New repository secret**
-
-Aggiungi questi 3 secrets:
-
-| Nome | Valore |
-|------|--------|
-| `EMAIL_MITTENTE` | la tua email Gmail (es. `mario@gmail.com`) |
-| `EMAIL_DESTINATARIO` | dove ricevere le notifiche (può essere uguale) |
-| `GMAIL_APP_PASSWORD` | la password di 16 caratteri del punto 3 |
-
-### 5. Abilita i permessi di scrittura per Actions
-
-Nel repo → **Settings** → **Actions** → **General** → **Workflow permissions**
-→ seleziona **"Read and write permissions"** → Save
-
-### 6. Prima esecuzione manuale
-
-- Vai su **Actions** → seleziona il workflow **"Monitora Pagina Sapienza"**
-- Clicca **"Run workflow"**
-- La prima volta salva solo l'hash iniziale (nessuna email)
-- Dalla seconda in poi ti avvisa se cambia qualcosa
 
 ---
 
-## 🕐 Frequenza di controllo
+## Example notification
 
-Nel file `monitor.yml`, la riga:
-```yaml
-- cron: "0 * * * *"   # ogni ora
-```
-
-Puoi cambiarla con:
-- `"0 */6 * * *"` → ogni 6 ore
-- `"0 9,18 * * *"` → alle 9 e alle 18 ogni giorno
-- `"0 9 * * 1-5"` → ogni giorno feriale alle 9
-
----
-
-## 📝 Note
-
-- GitHub Actions è **gratuito** per repo pubblici e ha 2000 minuti/mese gratis per repo privati (più che sufficienti).
-- L'hash viene salvato nel file `last_hash.txt` nel repo.
+> **Subject:** 🔔 Monitor Sapienza - Novità rilevata!
+>
+> The page content has changed:
+> https://www.uniroma1.it/it/node/40540
+>
+> ```diff
+> + 15 new spots available for Computer Engineering
+> + Application deadline: November 5th
+> - Applications closed
+> ```
