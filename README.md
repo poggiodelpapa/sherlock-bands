@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" alt="Sherlock Bands" width="180"/>
+  <img src="logo.png" alt="Sherlock Bands" width="300"/>
 </p>
 
 # 🔔 Sherlock Bands
