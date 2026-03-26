@@ -11,17 +11,13 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: Ripristina Cache (last_hash)
-        uses: actions/cache/restore@v4
-        with:
-          path: last_hash.txt
-          key: last-hash
 
       - name: Installa dipendenze
         run: pip install requests beautifulsoup4
@@ -33,9 +29,10 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: python monitor.py
 
-      - name: Salva Cache (last_hash)
-        uses: actions/cache/save@v4
-        if: always()
-        with:
-          path: last_hash.txt
-          key: last-hash
+      - name: Salva hash e contenuto nel repo (se aggiornati)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f last_hash.txt last_content.txt 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "chore: aggiorna hash e contenuto [skip ci]"
+          git push
