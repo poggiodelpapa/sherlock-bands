@@ -22,13 +22,21 @@ SENDER_NAME = "Monitor Sapienza"
 
 def get_clean_text(soup):
     """Estrae il testo pulito del contenuto principale."""
-    main_content = soup.find("div", class_="node__content")
+    # Proviamo più selettori in ordine di preferenza
+    main_content = (
+        soup.find("div", class_="node__content") or
+        soup.find("div", class_="field--name-body") or
+        soup.find("article") or
+        soup.find("main") or
+        soup.find("div", id="content") or
+        soup.find("body")
+    )
     if not main_content:
         return None, None
-    # Testo leggibile per il diff
     text = main_content.get_text(separator="\n", strip=True)
-    # HTML per l'hash
     html = str(main_content)
+    print(f"✅ Contenuto trovato con tag: <{main_content.name} class='{' '.join(main_content.get('class', []))}'>")
+    print(f"   Lunghezza testo: {len(text)} caratteri")
     return text, html
 
 
@@ -53,12 +61,13 @@ def main():
     headers = {"User-Agent": "Mozilla/5.0"}
     response = requests.get(URL, headers=headers, timeout=30)
     response.raise_for_status()
+    print(f"📡 Pagina scaricata: {len(response.text)} caratteri")
 
     soup = BeautifulSoup(response.text, "html.parser")
     new_text, new_html = get_clean_text(soup)
 
     if new_html is None:
-        print("⚠️ Contenuto principale non trovato nella pagina.")
+        print("❌ Nessun contenuto trovato nella pagina. Esco.")
         return
 
     current_hash = hashlib.sha256(new_html.encode("utf-8")).hexdigest()
