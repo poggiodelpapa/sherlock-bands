@@ -1,8 +1,7 @@
-<p align="center">
+<div align="center">
   <img src="logo.png" alt="Sherlock Bands" width="300"/>
-</p>
-
-<h1 align="center">🔔 Sherlock Bands</h1>
+  <h1>🔔 Sherlock Bands</h1>
+</div>
 
 <br>
 A lightweight GitHub Actions bot that watches a university web page for changes and sends an email notification with a **visual diff** of what changed.
