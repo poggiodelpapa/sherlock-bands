@@ -40,11 +40,11 @@ Every hour → fetch page → hash content → compare with last run
 
 ## Features
 
-- ✅ Zero false positives — state is committed to the repo, not cached
-- 📧 Rich HTML email with colored diff (green = added, red = removed)
-- 🔁 Fully automated, no server or paid service required
-- 🆓 Runs within GitHub Actions free tier (uses ~30 min/month out of 2000)
-- 🔒 Credentials stored as GitHub Secrets, never in code
+- No false positives — state is committed to the repo, not cached
+- Rich HTML email with colored diff (green = added, red = removed)
+- Fully automated, no server or paid service required
+- Runs within GitHub Actions free tier (uses ~30 min/month out of 2000)
+- Credentials stored as GitHub Secrets, never in code
 
 ---
 
