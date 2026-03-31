@@ -1,78 +1,253 @@
-Corsi ad accesso programmato con TOLC-I e selezioni
-Corsi triennali ad accesso programmato delle Facoltà di ingegneria a.a. 2026-2027
-Bandi 2026-2027
-Facoltà di Ingegneria dell’informazione, Informatica e Statistica (I3S)
-Bando 14615 - L8
+Restricted-access degree programmes with TOLC-I and selections
+2025/2026 Restricted-access Engineering Bachelor's Degree Programmes
+The 3rd selection - Second ranking list - UE
+Successful candidates have to follow the procedures indicated in
+Enrolment section.
+14824_ACSAI_UE
+Enrolment phase for successful applicants from October 1° to October 6, 2025
+14824 - ACSAI - Ranking lists UE and NO UE
+The 2
+st
+selection - Third ranking list - NO UE
+Successful candidates have to follow the procedures indicated in
+Enrolment section.
+14824_ACSAI_NO UE
+Enrolment phase for successful applicants from September 24 to September 29, 2025
+The 3rd selection - First ranking list - UE
+Successful candidates have to follow the procedures indicated in
+Enrolment section.
+14824_ACSAI_UE
+Enrolment phase for successful applicants from September 24 to September 29, 2025
+ACSAI - 3rd selection ranking lists
+The 3rd selection ranking lists have been published. Successful candidates have to follow the procedures indicated in
+Enrolment section.
+14824_ACSAI
+Enrolment phase for successful applicants from September 17th to September 22th, 2025
+ACSAI - 2st selection ranking lists - NO UE
+The 2
+st
+selection ranking lists have been published. Successful candidates have to follow the procedures indicated in
+Enrolment section.
+14824_ACSAI_NON UE
+Enrolment phase for successful applicants from September 17th to September 22th, 2025
+ACSAI - Results and inconsistencies - Third selection
+The results have been published according to the article 8 of the call for application.
+Candidates who find some inconsistencies in the results (as they are not included in the list or they have a wrong result) should inform us by September 14, 2025 by filling the google form below:
+https://docs.google.com/forms/d/e/1FAIpQLSdm5Tn12FN0yfSS1MOqfMGVOdiuW4ROssBce6Bb6NscA7KyYg/viewform
+If you are not in the list of results you have to select the option
+“I am not in the list of students that have participated in the selection”
+and proceed filling the form.
+If you are in the list of results but the score is not correct you have to select the option
+“I am in the list but the test result is not correct”
+and proceed filling the form.
+(we suggest you to open the form using Chrome)
+Show the results
+Acsai - Places for the third selection EU
+The places available for the third selection EU have been published
+See the available places
+ACSAI - The ranking list update for NON EU candidates have been published
+The ranking list update related to
+II° ranking list update for NON EU candidates (second selection)
+have been published.
+Enrolment phase for successful applicants from September 8th to September 11th, 2025
+ACSAI - 2st selection ranking lists
+The 2
+st
+selection ranking lists have been published. Successful candidates have to follow the procedures indicated in
+Enrolment section.
+14824_ACSAI_UE
+14824_ACSAI_NON UE
+Enrolment phase for successful applicants from September 1st to September 4th, 2025
+Places for the second selection
+The places available for the second selection have been published
+Faculty of Information Engineering, Computer Science and Statistics (I3S)
+Call 14615 - L8
 33500 - Ingegneria Gestionale
 33501 - Ingegneria Informatica e Automatica
 33499 - Ingegneria Elettronica
-Bando 14617 - L31
+See the available places
+Call 14617 - L31
 33503 - Informatica
-Facoltà di Ingegneria civile e industriale (ICI)
-Bando 14616 - L9
+See the available places
+Faculty of Civil and Industrial Engineering (ICI)
+Call 14616 - L9
 33474 - Ingegneria Aerospaziale
 33475 - Ingegneria Chimica
 33476 - Ingegneria Clinica
 33478 - Ingegneria Energetica
 33479 - Ingegneria Meccanica
 33480 - Ingegneria Meccanica per la transizione verde (sede di Latina)
-Bando 12946 - L7
+See the available places
+Call 12946 - L7
 33471 - Ingegneria Civile
-Le procedure relative agli altri corsi di studio delle due Facoltà di Ingegneria saranno pubblicate in altra data.
-Iscrizione alle selezioni
-Per partecipare a una selezione devi pagare il contributo di 10 euro con la seguente procedura:
-registrati
-(nota: se al momento della registrazione non hai ancora conseguito il diploma di maturità dovrai inserire la spunta sulla casella "Diplomando")
-accedi al sistema con le tue credenziali
-vai su Corsi di laurea
-vai su Accesso ai corsi
-seleziona Gestione preferenze;
-seleziona codice prova del bando al quale intendi candidarti:
-clicca su Prosegui
-per i bandi che lo prevedono, effettua la scelta del corso di laurea per cui intendi concorrere, indicando la tua preferenza; prima di procedere al pagamento del contributo di 10 euro, pena l’esclusione dalla selezione, devi indicare la preferenza obbligatoria del corso di laurea per cui intendi concorrere entro le finestre temporali di iscrizione alle selezioni riportate nel bando
-vai su Prosegui
-vai su Inserisci/modifica
-vai su Accesso ai corsi
-inserisci il codice prova del bando al quale intendi candidarti
-vai su Prosegui e poi su Successivo
-clicca su Pagamento diretto (PagoPA)
-paga i 10 euro entro la scadenza prevista
-Leggi le istruzioni
-Calcolo Isee
-L'Isee si calcola al Caf o sul sito dell'Inps ed è indispensabile per determinare l'importo dei contributi di iscrizione.
-ll calcolo Isee deve essere effettuato almeno 30 giorni prima delle scadenze previste per la preimmatricolazione indicate sul bando.
-Il valore da richiedere è Isee 2026 per il diritto allo studio universitario.
-Dopo aver calcolato l'Isee, devi fare l'acquisizione su Infostud con la queste modalità:
-accedi al sistema con le tue credenziali
-vai su Profilo
-vai su Isee
-vai su Acquisisci Isee
-L'Isee può essere acquisito su Infostud anche durante la procedura di Pre-immatricolazione.
-Pre-immatricolazione per chi ha superato la prima selezione
-Se hai superato la prima selezione dovrai effettuare un pagamento di un importo massimo pari a 200 euro (variabile in base all'Isee) che sarà decurtato dalla prima rata di iscrizione.
-Procedura
-accedi al sistema con le tue credenziali
-vai su "Corsi di laurea";
-vai su "Procedure speciali" e clicca su "Pre-immatricolazione Tolc-I";
-inserisci i dati;
-clicca su “Iscriviti”. Se il tuo Isee è inferiore alla soglia prevista non dovrai pagare il contributo ma sarai automaticamente inserito tra i pre-immatricolati;
-con Isee superiore alla soglia prevista clicca su "Stampa" e procedi al pagamento del contributo;
-clicca su Pagamento diretto (pagoPA)
-Leggi  le istruzioni
-.
-Dopo aver pagato il contributo non è necessario andare in segreteria né consegnare la ricevuta.
-Immatricolazione
-L'immatricolazione consiste nel pagamento della prima rata dei contributi di iscrizione.
-Leggi le istruzioni
-Nota: se al momento della registrazione hai inserito l'opzione Diplomando, prima di stampare il bollettino dovrai inserire i dati mancanti con questa procedura:
-accedi al sistema con le tue credenziali
-vai su Profilo
-vai su Diploma
-vai su Aggiorna
-inserisci i dati mancanti
-vai su Invio
+See the available places
+Call 14824 – L-31
+33502 - ACSAI
+See the available places
+Engineering:
+results and inconsistencies
+1) Search for the course you are competing for
+2) See the list of the results
+3)Fill in the form if:
+You are not in the list of results. In this case you have to select the option “
+N
+on sono presente nell'elenco di coloro che hanno partecipato alla selezione
+”
+(I am not in the list of students that have participated in the selection)
+and proceed filling the form.
+You are in the list of results but the score is not correct. In this case you have to select the option “
+Sono presente ma il punteggio del test risulta errato”(
+I am in the list but the test result is not correct)
+and proceed filling the form.
+(we suggest you to open the form using Chrome)
+Faculty of Information Engineering, Computer Science and Statistics
+(I3S)
+14615 - L8
+33500 - Ingegneria Gestionale
+Results
+Fill in the form
+33501 - Ingegneria Informatica e Automatica
+Results
+Fill in the form
+33499 - Ingegneria Elettronica
+Results
+Fill in the form
+14617 - L31
+33503 - Informatica
+Results
+Fill in the form
+Faculty of Civil and Industrial Engineering
+(ICI)
+14616 - L9
+33474 - Ingegneria Aerospaziale
+Results
+Fill in the form
+33475 - Ingegneria Chimica
+Results
+Fill in the form
+33476 - Ingegneria Clinica
+Results
+Fill in the form
+33478 - Ingegneria Energetica
+Results
+Fill in the form
+33479 - Ingegneria Meccanica
+Results
+Fill in the form
+33480 - Ingegneria Meccanica per la transizione verde (sede di Latina)
+Results
+Fill in the form
+12946 - L7
+33471 - Ingegneria Civile
+Results
+Fill in the form
+ACSAI - 1st selection ranking lists
+The 1
+st
+selection ranking lists have been published.
+Successful candidates have to follow the procedures indicated in Pre-enrolment section.
+14824 ACSAI EU
+14824 ACSAI NO EU
+ACSAI - Results and inconsistencies
+The results have been published according to the article 8 of the call for application.
+Candidates who find some inconsistencies in the results (as they are not included in the list or they have a wrong result) should inform us by April 14, 2025 by filling the google form below:
+https://docs.google.com/forms/d/e/1FAIpQLSdm5Tn12FN0yfSS1MOqfMGVOdiuW4ROssBce6Bb6NscA7KyYg/viewform
+If you are not in the list of results you have to select the option
+“I am not in the list of students that have participated in the selection”
+and proceed filling the form.
+If you are in the list of results but the score is not correct you have to select the option
+“I am in the list but the test result is not correct”
+and proceed filling the form.
+(we suggest you to open the form using Chrome)
+Show the results
+Calls published
+Faculty of Information Engineering, Computer Science and Statistics (I3S)
+Call 14615 - L8
+33500 - Ingegneria Gestionale
+33501 - Ingegneria Informatica e Automatica
+33499 - Ingegneria Elettronica
+Call 14617 - L31
+33503 – Informatica
+Faculty of Civil and Industrial Engineering (ICI)
+Call 14616 - L9
+33474 - Ingegneria Aerospaziale
+33475 - Ingegneria Chimica
+33476 - Ingegneria Clinica
+33478 - Ingegneria Energetica
+33479 - Ingegneria Meccanica
+33480 - Ingegneria Meccanica per la transizione verde (Latina campus)
+Call 12946 - L7
+33471 - Ingegneria Civile
+Bando 14824 – L-31 ITA
+Call 14824 – L-31 ENG
+33502 - Applied Computer Science and Artificial Intelligence (ACSAI)
+ACSAI call for application has been modified in the following sections:
+Article 5 – Places available – allocation of places for the selections;
+Annex 2 – English language proficiency requirements – how to send the certifications
+Procedures for other programmes in the two engineering faculties will be published later.
+How to register for selections
+To take part in the selection, you need to pay the 10 euro fee using the following procedure:
+if you are not registered, please
+register
+(note: if at the time of registration you have not yet obtained your high school diploma, you must tick the "Waiting for High School Diploma" box)
+log in
+(SPID or CIE - Electronic ID card for Italian students; PSW and StudentIDnumber for international students);
+Go to Bachelor’s and Master’s degree programmes
+Go to Admission to Programmes
+select Preferences management
+select test code of the Call to which you intend to apply:
+click on Continue
+choose the degree programme for which you intend to apply, indicating your preference; before payment of the 10 euro fee, under penalty of exclusion from the selection, you have to indicate the mandatory preference of the degree programme for which you intend to apply within the time windows for enrolment in the selections indicated in the call
+go to Continue
+Go to Insert/modify
+go to Admission to Programmes
+Enter test code of the Call to which you intend to apply
+go to Continue and then to Next
+click on PagoPA
+pay the 10 euros within the indicated deadline.
+Read  the instructions
+How to upload your Isee
+The Isee can be calculated at a Caf (tax assistance centre) or on the Inps website and is essential for determining the amount of your tuition fee.
+The Isee calculation must be carried out at least 30 days before the pre-registration deadline (see next point).
+The value to be requested is Isee 2025 for il
+diritto allo studio universitario
+(right to university education)
+Procedure
+Once your Isee has been calculated, you have to upload it to Infostud in the following way:
+log in
+(SPID or CIE - Electronic ID card for Italian students; PSW and StudentIDnumber for international students)
+Go to Profile
+Go to Isee
+Go to Acquire Isee
+The Isee can also be acquired on Infostud during the pre-registration phase.
+Pre-enrolment - procedure for those who have successfully passed the first selection
+If you have passed the first selection, you will have to pay a maximum amount of 200 euros (depending on your Isee income), which will be deducted from the first instalment.
+Procedure
+log in
+SPID or CIE - Electronic ID card for Italian students; PSW and StudentIDnumber for international students)
+go to Bachelor's and Master's degree programmes;
+go to "Special procedures" and click on "Pre-enrolment Tolc-I";
+Enter your data;
+Click on "Enrolment". If your Isee is lower than the expected threshold, payment is not requested and you will be automatically included among the pre-enrolled students;
+if your Isee is higher than the threshold, click on "Print", the payment slip will be created and you can proceed with payment;
+click on PagoPA
+(guidelines)
+Once the payment has been made, there is no need to go to the Student Affairs Office or hand in the receipt.
+Enrolment
+Enrolment is the payment of the first instalment of tuition fees
+(instructions)
+Please Note: if you ticked the “Diplomando/Waiting for High School Diploma” option during registration, you will have to enter the missing data following this procedure before printing the payment slip:
+log in
+(SPID or CIE - Electronic ID card for Italian students; PSW and StudentIDnumber for international students)
+Go to Profile
+Go to High school diploma
+go to Update
+Enter the missing data
+Click on Send
 Allegati
-14615_Bando_I3S
-14617_Bando_I3S
-14616_Bando_ICI
-12946_Bando_ICI
+12946_I
+14615_I
+14616_I
+14617_I
+14824_I
+14824_EN
