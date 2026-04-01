@@ -1,93 +1,82 @@
-Restricted-access degree programmes with TOLC-I and selections
-Page being updated. We apologize for the inconvenience
-Calls published
-Faculty of Information Engineering, Computer Science and Statistics (I3S)
-Call 14615 - L8
+Corsi ad accesso programmato con TOLC-I e selezioni
+Corsi triennali ad accesso programmato delle Facoltà di ingegneria a.a. 2026-2027
+Bandi 2026-2027
+Facoltà di Ingegneria dell’informazione, Informatica e Statistica (I3S)
+Bando 14615 - L8
 33500 - Ingegneria Gestionale
 33501 - Ingegneria Informatica e Automatica
 33499 - Ingegneria Elettronica
-Call 14617 - L31
-33503 – Informatica
-Faculty of Civil and Industrial Engineering (ICI)
-Call 14616 - L9
+Bando 14617 - L31
+33503 - Informatica
+Facoltà di Ingegneria civile e industriale (ICI)
+Bando 14616 - L9
 33474 - Ingegneria Aerospaziale
 33475 - Ingegneria Chimica
 33476 - Ingegneria Clinica
 33478 - Ingegneria Energetica
 33479 - Ingegneria Meccanica
-33480 - Ingegneria Meccanica per la transizione verde (Latina campus)
-Call 12946 - L7
+33480 - Ingegneria Meccanica per la transizione verde (sede di Latina)
+Bando 12946 - L7
 33471 - Ingegneria Civile
-Bando 14824 – L-31 ITA
-Call 14824 – L-31 ENG
-33502 - Applied Computer Science and Artificial Intelligence (ACSAI)
-ACSAI call for application has been modified in the following sections:
-Article 5 – Places available – allocation of places for the selections;
-Annex 2 – English language proficiency requirements – how to send the certifications
-Procedures for other programmes in the two engineering faculties will be published later.
-How to register for selections
-To take part in the selection, you need to pay the 10 euro fee using the following procedure:
-if you are not registered, please
-register
-(note: if at the time of registration you have not yet obtained your high school diploma, you must tick the "Waiting for High School Diploma" box)
-log in
-(SPID or CIE - Electronic ID card for Italian students; PSW and StudentIDnumber for international students);
-Go to Bachelor’s and Master’s degree programmes
-Go to Admission to Programmes
-select Preferences management
-select test code of the Call to which you intend to apply:
-click on Continue
-choose the degree programme for which you intend to apply, indicating your preference; before payment of the 10 euro fee, under penalty of exclusion from the selection, you have to indicate the mandatory preference of the degree programme for which you intend to apply within the time windows for enrolment in the selections indicated in the call
-go to Continue
-Go to Insert/modify
-go to Admission to Programmes
-Enter test code of the Call to which you intend to apply
-go to Continue and then to Next
-click on PagoPA
-pay the 10 euros within the indicated deadline.
-Read  the instructions
-How to upload your Isee
-The Isee can be calculated at a Caf (tax assistance centre) or on the Inps website and is essential for determining the amount of your tuition fee.
-The Isee calculation must be carried out at least 30 days before the pre-registration deadline (see next point).
-The value to be requested is Isee 2025 for il
-diritto allo studio universitario
-(right to university education)
-Procedure
-Once your Isee has been calculated, you have to upload it to Infostud in the following way:
-log in
-(SPID or CIE - Electronic ID card for Italian students; PSW and StudentIDnumber for international students)
-Go to Profile
-Go to Isee
-Go to Acquire Isee
-The Isee can also be acquired on Infostud during the pre-registration phase.
-Pre-enrolment - procedure for those who have successfully passed the first selection
-If you have passed the first selection, you will have to pay a maximum amount of 200 euros (depending on your Isee income), which will be deducted from the first instalment.
-Procedure
-log in
-SPID or CIE - Electronic ID card for Italian students; PSW and StudentIDnumber for international students)
-go to Bachelor's and Master's degree programmes;
-go to "Special procedures" and click on "Pre-enrolment Tolc-I";
-Enter your data;
-Click on "Enrolment". If your Isee is lower than the expected threshold, payment is not requested and you will be automatically included among the pre-enrolled students;
-if your Isee is higher than the threshold, click on "Print", the payment slip will be created and you can proceed with payment;
-click on PagoPA
-(guidelines)
-Once the payment has been made, there is no need to go to the Student Affairs Office or hand in the receipt.
-Enrolment
-Enrolment is the payment of the first instalment of tuition fees
-(instructions)
-Please Note: if you ticked the “Diplomando/Waiting for High School Diploma” option during registration, you will have to enter the missing data following this procedure before printing the payment slip:
-log in
-(SPID or CIE - Electronic ID card for Italian students; PSW and StudentIDnumber for international students)
-Go to Profile
-Go to High school diploma
-go to Update
-Enter the missing data
-Click on Send
+Le procedure relative agli altri corsi di studio delle due Facoltà di Ingegneria saranno pubblicate in altra data.
+Iscrizione alle selezioni
+Per partecipare a una selezione devi pagare il contributo di 10 euro con la seguente procedura:
+registrati
+(nota: se al momento della registrazione non hai ancora conseguito il diploma di maturità dovrai inserire la spunta sulla casella "Diplomando")
+accedi al sistema con le tue credenziali
+vai su Corsi di laurea
+vai su Accesso ai corsi
+seleziona Gestione preferenze;
+seleziona codice prova del bando al quale intendi candidarti:
+clicca su Prosegui
+per i bandi che lo prevedono, effettua la scelta del corso di laurea per cui intendi concorrere, indicando la tua preferenza; prima di procedere al pagamento del contributo di 10 euro, pena l’esclusione dalla selezione, devi indicare la preferenza obbligatoria del corso di laurea per cui intendi concorrere entro le finestre temporali di iscrizione alle selezioni riportate nel bando
+vai su Prosegui
+vai su Inserisci/modifica
+vai su Accesso ai corsi
+inserisci il codice prova del bando al quale intendi candidarti
+vai su Prosegui e poi su Successivo
+clicca su Pagamento diretto (PagoPA)
+paga i 10 euro entro la scadenza prevista
+Leggi le istruzioni
+Calcolo Isee
+L'Isee si calcola al Caf o sul sito dell'Inps ed è indispensabile per determinare l'importo dei contributi di iscrizione.
+ll calcolo Isee deve essere effettuato almeno 30 giorni prima delle scadenze previste per la preimmatricolazione indicate sul bando.
+Il valore da richiedere è Isee 2026 per il diritto allo studio universitario.
+Dopo aver calcolato l'Isee, devi fare l'acquisizione su Infostud con la queste modalità:
+accedi al sistema con le tue credenziali
+vai su Profilo
+vai su Isee
+vai su Acquisisci Isee
+L'Isee può essere acquisito su Infostud anche durante la procedura di Pre-immatricolazione.
+Per chi ha cittadinanza estera e/o dichiara redditi prodotti all’estero
+e non può pertanto produrre la certificazione Isee, è previsto un contributo di iscrizione di importo fisso, in base al Paese di provenienza.
+Consulta la pagina dedicata al link
+https://www.uniroma1.it/it/node/24520
+Pre-immatricolazione per chi ha superato la prima selezione
+Se hai superato la prima selezione dovrai effettuare un pagamento di un importo massimo pari a 200 euro (variabile in base all'Isee) che sarà decurtato dalla prima rata di iscrizione.
+Procedura
+accedi al sistema con le tue credenziali
+vai su "Corsi di laurea";
+vai su "Procedure speciali" e clicca su "Pre-immatricolazione Tolc-I";
+inserisci i dati;
+clicca su “Iscriviti”. Se il tuo Isee è inferiore alla soglia prevista non dovrai pagare il contributo ma sarai automaticamente inserito tra i pre-immatricolati;
+con Isee superiore alla soglia prevista clicca su "Stampa" e procedi al pagamento del contributo;
+clicca su Pagamento diretto (pagoPA)
+Leggi  le istruzioni
+.
+Dopo aver pagato il contributo non è necessario andare in segreteria né consegnare la ricevuta.
+Immatricolazione
+L'immatricolazione consiste nel pagamento della prima rata dei contributi di iscrizione.
+Leggi le istruzioni
+Nota: se al momento della registrazione hai inserito l'opzione Diplomando, prima di stampare il bollettino dovrai inserire i dati mancanti con questa procedura:
+accedi al sistema con le tue credenziali
+vai su Profilo
+vai su Diploma
+vai su Aggiorna
+inserisci i dati mancanti
+vai su Invio
 Allegati
-12946_I
-14615_I
-14616_I
-14617_I
-14824_I
-14824_EN
+14615_Bando_I3S
+14617_Bando_I3S
+14616_Bando_ICI
+12946_Bando_ICI
