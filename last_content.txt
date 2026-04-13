@@ -104,7 +104,7 @@ accedi al sistema con le tue credenziali
 vai su "Corsi di laurea";
 vai su "Procedure speciali" e clicca su "Pre-immatricolazione Tolc-I";
 inserisci i dati;
-clicca su “Iscriviti”. Se il tuo Isee è inferiore alla soglia prevista non dovrai pagare il contributo ma sarai automaticamente inserito tra i pre-immatricolati;
+clicca su “Iscriviti”. Se il tuo Isee è inferiore alla soglia prevista non dovrai pagare il contributo ma avrai l'inserimento automatico tra le persone pre-immatricolate;
 con Isee superiore alla soglia prevista clicca su "Stampa" e procedi al pagamento del contributo;
 clicca su Pagamento diretto (pagoPA)
 Leggi  le istruzioni
