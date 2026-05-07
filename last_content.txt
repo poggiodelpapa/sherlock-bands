@@ -1,5 +1,27 @@
-Corsi ad accesso programmato con TOLC-I e selezioni
+Corsi ad accesso programmato delle Facoltà di Ingegneria
 Corsi triennali ad accesso programmato delle Facoltà di ingegneria a.a. 2026-2027
+Bandi 2026-2027 - Pubblicato il bando ACSAI
+Facoltà di Ingegneria dell’informazione, Informatica e Statistica (I3S)
+Bando 14824 - L31 - ACSAI_IT
+Call 14824 - L31 - ACSAI_EN
+33502 - Applied Computer Science and Artificial Intelligence
+Bando 14615 - L8
+33500 - Ingegneria Gestionale
+33501 - Ingegneria Informatica e Automatica
+33499 - Ingegneria Elettronica
+Bando 14617 - L31
+33503 - Informatica
+Facoltà di Ingegneria civile e industriale (ICI)
+Bando 14616 - L9
+33474 - Ingegneria Aerospaziale
+33475 - Ingegneria Chimica
+33476 - Ingegneria Clinica
+33478 - Ingegneria Energetica
+33479 - Ingegneria Meccanica
+33480 - Ingegneria Meccanica per la transizione verde (sede di Latina)
+Bando 12946 - L7
+33471 - Ingegneria Civile
+Le procedure relative agli altri corsi di studio delle due Facoltà di Ingegneria saranno pubblicate in altra data.
 Prima selezione
 Prima selezione: Elenco risultati e segnalazioni
 1) Cerca il corso per il quale concorri
@@ -118,25 +140,6 @@ Dovrai comunque pagare i 10 euro per ogni selezione a cui ti iscrivi.
 Posso sostenere il TOLC‑I dopo la scadenza indicata nel bando, se sul sito CISIA ci sono posti disponibili?
 No.
 Anche se il TOLC‑I è organizzato da Sapienza, se lo sostieni dopo le scadenze previste dal bando, non potrai partecipare alla selezione né iscriverti al corso.
-Bandi 2026-2027
-Facoltà di Ingegneria dell’informazione, Informatica e Statistica (I3S)
-Bando 14615 - L8
-33500 - Ingegneria Gestionale
-33501 - Ingegneria Informatica e Automatica
-33499 - Ingegneria Elettronica
-Bando 14617 - L31
-33503 - Informatica
-Facoltà di Ingegneria civile e industriale (ICI)
-Bando 14616 - L9
-33474 - Ingegneria Aerospaziale
-33475 - Ingegneria Chimica
-33476 - Ingegneria Clinica
-33478 - Ingegneria Energetica
-33479 - Ingegneria Meccanica
-33480 - Ingegneria Meccanica per la transizione verde (sede di Latina)
-Bando 12946 - L7
-33471 - Ingegneria Civile
-Le procedure relative agli altri corsi di studio delle due Facoltà di Ingegneria saranno pubblicate in altra data.
 Iscrizione alle selezioni
 Per partecipare a una selezione devi pagare il contributo di 10 euro con la seguente procedura:
 registrati
@@ -198,3 +201,5 @@ Allegati
 14617_Bando_I3S
 14616_Bando_ICI
 12946_Bando_ICI
+14824_Bando_I
+14824_Call for applications_EN
