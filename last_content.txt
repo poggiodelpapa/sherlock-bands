@@ -1,28 +1,39 @@
 Corsi ad accesso programmato delle Facoltà di Ingegneria
 Corsi triennali ad accesso programmato delle Facoltà di ingegneria a.a. 2026-2027
-Bandi 2026-2027 - Pubblicato il bando ACSAI
+Prima selezione - Graduatorie
+Pubblicate le graduatorie relative alla prima selezione.
+I vincitori dovranno seguire le procedure indicate nella
+sezione Pre-immatricolazione
+e pagare il contributo di pre-immatricolazione
+dall’11 maggio al 20 maggio 2026
 Facoltà di Ingegneria dell’informazione, Informatica e Statistica (I3S)
-Bando 14824 - L31 - ACSAI_IT
-Call 14824 - L31 - ACSAI_EN
-33502 - Applied Computer Science and Artificial Intelligence
-Bando 14615 - L8
-33500 - Ingegneria Gestionale
-33501 - Ingegneria Informatica e Automatica
-33499 - Ingegneria Elettronica
-Bando 14617 - L31
-33503 - Informatica
+14615 - L8
+33499 - Ingegneria Elettronica -
+Visualizza la graduatoria
+33500 - Ingegneria Gestionale -
+Visualizza la graduatoria
+33501 - Ingegneria Informatica e Automatica -
+Visualizza la graduatoria
+14617 - L31
+33503 - Informatica -
+Visualizza la graduatoria
 Facoltà di Ingegneria civile e industriale (ICI)
-Bando 14616 - L9
-33474 - Ingegneria Aerospaziale
-33475 - Ingegneria Chimica
-33476 - Ingegneria Clinica
-33478 - Ingegneria Energetica
-33479 - Ingegneria Meccanica
-33480 - Ingegneria Meccanica per la transizione verde (sede di Latina)
-Bando 12946 - L7
-33471 - Ingegneria Civile
-Le procedure relative agli altri corsi di studio delle due Facoltà di Ingegneria saranno pubblicate in altra data.
-Prima selezione
+14616 - L9
+33474 - Ingegneria Aerospaziale -
+Visualizza la graduatoria
+33475 - Ingegneria Chimica -
+Visualizza la graduatoria
+33476 - Ingegneria Clinica -
+Visualizza la graduatoria
+33478 - Ingegneria Energetica -
+Visualizza la graduatoria
+33479 - Ingegneria Meccanica -
+Visualizza la graduatoria
+33480 - Ingegneria Meccanica per la transizione verde (sede di Latina) -
+Visualizza la graduatoria
+12946 - L7
+33471 - Ingegneria Civile -
+Visualizza la graduatoria
 Prima selezione: Elenco risultati e segnalazioni
 1) Cerca il corso per il quale concorri
 2) Visualizza l’elenco dei risultati
@@ -95,6 +106,28 @@ Elenco risultati
 Compila il form
 entro il giorno 4 maggio 2026
 (si consiglia l’apertura del form con l’utilizzo del browser Chrome)
+Bandi 2026-2027 - Pubblicato il bando ACSAI
+Facoltà di Ingegneria dell’informazione, Informatica e Statistica (I3S)
+Bando 14824 - L31 - ACSAI_IT
+Call 14824 - L31 - ACSAI_EN
+33502 - Applied Computer Science and Artificial Intelligence
+Bando 14615 - L8
+33500 - Ingegneria Gestionale
+33501 - Ingegneria Informatica e Automatica
+33499 - Ingegneria Elettronica
+Bando 14617 - L31
+33503 - Informatica
+Facoltà di Ingegneria civile e industriale (ICI)
+Bando 14616 - L9
+33474 - Ingegneria Aerospaziale
+33475 - Ingegneria Chimica
+33476 - Ingegneria Clinica
+33478 - Ingegneria Energetica
+33479 - Ingegneria Meccanica
+33480 - Ingegneria Meccanica per la transizione verde (sede di Latina)
+Bando 12946 - L7
+33471 - Ingegneria Civile
+Le procedure relative agli altri corsi di studio delle due Facoltà di Ingegneria saranno pubblicate in altra data.
 Hai domande sui bandi? Vuoi chiarimenti? Guarda il video e leggi le Faq
 Video su IG Sapienza
 Cosa sono i bandi TOLC‑I?
