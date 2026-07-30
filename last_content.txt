@@ -1,26 +1,39 @@
 Corsi ad accesso programmato delle Facoltà di Ingegneria
 Corsi triennali ad accesso programmato delle Facoltà di ingegneria a.a. 2026-2027
-ACSAI - Prima selezione
-Pubblicate le graduatoria della prima selezione.
-Se hai vinto un posto in graduatoria devi pagare i contributi di iscrizione al corso
-dal 1° settembre al 7 settembre 2026.
-Graduatoria contingente UE
-Graduatoria contingente non-UE
-Pubblicato l'elenco dei risultati ai sensi dell'art. 7 del bando d’accesso
-I candidati che riscontrano delle incongruenze nei risultati (non sono presenti in elenco o il punteggio del test non è corretto) devono comunicarlo, entro il giorno
-5 luglio 2026
-mediante compilazione del seguente Google Form:
-https://forms.gle/PLbauyNENjnK6JJz9
-Se il tuo nominativo non è presente in elenco devi obbligatoriamente spuntare l’opzione “
-N
-on sono presente nell'elenco di coloro che hanno partecipato alla selezione
-”, e proseguire con la compilazione del form.
-Se il tuo nominativo è presente in elenco ma il punteggio non è corretto devi obbligatoriamente spuntare l’opzione “
-Sono presente ma il punteggio del test risulta errato
-”, e proseguire con la compilazione del form.
-(si consiglia l’apertura del form con l’utilizzo del browser Chrome)
-Per problemi tecnici non è stato possibile scaricare l’aggiornamento dei punteggi del SAT. Se ne sei in possesso ti invitiamo a compilare il Google Form
-Visualizza l’elenco dei risultati
+Seconda selezione Ingegnerie - Graduatorie
+Pubblicate le graduatorie relative alla seconda selezione.
+Se hai vinto un posto in graduatoria devi seguire le procedure indicate nella sezione
+Immatricolazione
+e pagare il contributo di iscrizione al corso
+dal 1° settembre al 7 settembre 2026
+Facoltà di Ingegneria dell’informazione, Informatica e Statistica (I3S)
+14615 - L8
+33499 - Ingegneria Elettronica -
+Visualizza la graduatoria
+33500 - Ingegneria Gestionale -
+Visualizza la graduatoria
+33501 - Ingegneria Informatica e Automatica -
+Visualizza la graduatoria
+14617 - L31
+33503 - Informatica -
+Visualizza la graduatoria
+Facoltà di Ingegneria civile e industriale (ICI)
+14616 - L9
+33474 - Ingegneria Aerospaziale -
+Visualizza la graduatoria
+33475 - Ingegneria Chimica -
+Visualizza la graduatoria
+33476 - Ingegneria Clinica -
+Visualizza la graduatoria
+33478 - Ingegneria Energetica -
+Visualizza la graduatoria
+33479 - Ingegneria Meccanica -
+Visualizza la graduatoria
+33480 - Ingegneria Meccanica per la transizione verde (sede di Latina) -
+Visualizza la graduatoria
+12946 - L7
+33471 - Ingegneria Civile -
+Visualizza la graduatoria
 Seconda selezione: Elenco risultati e segnalazioni
 1) Cerca il corso per il quale concorri
 2) Visualizza l’elenco dei risultati
@@ -90,6 +103,27 @@ Elenco risultati
 Compila il form
 entro il giorno 27 luglio 2026
 (si consiglia l’apertura del form con l’utilizzo del browser Chrome)
+ACSAI - Prima selezione
+Pubblicate le graduatoria della prima selezione.
+Se hai vinto un posto in graduatoria devi pagare i contributi di iscrizione al corso
+dal 1° settembre al 7 settembre 2026.
+Graduatoria contingente UE
+Graduatoria contingente non-UE
+Pubblicato l'elenco dei risultati ai sensi dell'art. 7 del bando d’accesso
+I candidati che riscontrano delle incongruenze nei risultati (non sono presenti in elenco o il punteggio del test non è corretto) devono comunicarlo, entro il giorno
+5 luglio 2026
+mediante compilazione del seguente Google Form:
+https://forms.gle/PLbauyNENjnK6JJz9
+Se il tuo nominativo non è presente in elenco devi obbligatoriamente spuntare l’opzione “
+N
+on sono presente nell'elenco di coloro che hanno partecipato alla selezione
+”, e proseguire con la compilazione del form.
+Se il tuo nominativo è presente in elenco ma il punteggio non è corretto devi obbligatoriamente spuntare l’opzione “
+Sono presente ma il punteggio del test risulta errato
+”, e proseguire con la compilazione del form.
+(si consiglia l’apertura del form con l’utilizzo del browser Chrome)
+Per problemi tecnici non è stato possibile scaricare l’aggiornamento dei punteggi del SAT. Se ne sei in possesso ti invitiamo a compilare il Google Form
+Visualizza l’elenco dei risultati
 Posti disponili per la seconda selezione
 Pubblicati i posti disponibili per la seconda selezione
 Facoltà di Ingegneria dell’informazione, Informatica e Statistica (I3S)
